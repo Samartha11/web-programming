@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Maroon City Shirt</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: url('background-detail.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #333;
+    }
+
+    .product-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 50px 20px;
+      background-color: rgba(255, 255, 255, 0.92);
+      max-width: 800px;
+      margin: 40px auto;
+      border-radius: 12px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    }
+
+    .product-container img {
+      width: 300px;
+      border-radius: 12px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+      margin-bottom: 25px;
+    }
+
+    h1 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+      margin: 10px 0;
+    }
+
+    .price {
+      font-weight: bold;
+      font-size: 20px;
+      color: #444;
+      margin-top: 15px;
+    }
+
+    .btn-group {
+      margin-top: 30px;
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .back-link,
+    .buy-link {
+      padding: 12px 24px;
+      text-decoration: none;
+      font-weight: 600;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+    }
+
+    .back-link {
+      background-color: #444;
+      color: white;
+    }
+
+    .back-link:hover {
+      background-color: #222;
+    }
+
+    .buy-link {
+      background-color: #f8b500;
+      color: white;
+    }
+
+    .buy-link:hover {
+      background-color: #d89a00;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="product-container">
+    <h1>Maroon City Shirt</h1>
+    <img src="dress2.jpeg" alt="Classic Olive Shirt">
+    <p>Soft and breathable cotton shirt with earthy tones, perfect for summer outings or casual workdays.</p>
+    <p class="price">Price: Rs. 2,000</p>
+      <!-- Size Options -->
+<div class="size-selector">
+  <p><strong>Available Sizes:</strong></p>
+  <div class="size-options">
+    <label>
+      <input type="radio" name="size" value="L">
+      <span>L</span>
+    </label>
+    <label>
+      <input type="radio" name="size" value="XL">
+      <span>XL</span>
+    </label>
+    <label>
+      <input type="radio" name="size" value="XXL">
+      <span>XXL</span>
+    </label>
+    <label>
+      <input type="radio" name="size" value="XXXL">
+      <span>XXXL</span>
+    </label>
+  </div>
+</div>
+
+
+    <div class="btn-group">
+      <a href="index.html" class="back-link">← Back to Dresses</a>
+      <a href="https://wa.me/9779800000000?text=I%20want%20to%20buy%20the%20Classic%20Olive%20Shirt%20(Rs.3200)" class="buy-link" target="_blank">Buy Now</a>
+    </div>
+  </div>
+
+</body>
+</html>
